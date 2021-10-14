@@ -10,7 +10,11 @@ export const NFTItems = (props) => {
           </p>
         </div>
         <div className='row'>
-          <img src='img/NFTItems.png' style={{ width: '100%' }} alt='' />
+          <img
+            src='/static/img/NFTItems.png'
+            style={{ width: '100%' }}
+            alt=''
+          />
         </div>
       </div>
     </div>

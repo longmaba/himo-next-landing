@@ -12,7 +12,7 @@ export const Features = (props) => {
         </div>
         <div className='row'>
           <img
-            src='img/gameplayscreen.jpg'
+            src='/static/img/gameplayscreen.jpg'
             className='img-responsive'
             alt=''
             style={{ padding: 50 }}
