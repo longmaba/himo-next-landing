@@ -615,7 +615,6 @@ label {
   margin: auto;
   background: linear-gradient(0.25turn, #162931, #273d44, #162931);
   filter: drop-shadow(0 0 1rem rgb(0, 0, 0));
-  z-index: -10;
   position: relative;
 }
 
