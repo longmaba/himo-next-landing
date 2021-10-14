@@ -63,15 +63,13 @@ export default function Home() {
         />
         <title>Himo World</title>
         <meta name='description' content='' />
-      </Head>
-      <body id='page-top' data-spy='scroll' data-target='.navbar-fixed-top'>
-        <div id='root'>
-          <App />
-        </div>
-        <Script
+        <script
           type='text/javascript'
           src='/static/js/jquery.1.11.1.js'
-        ></Script>
+        ></script>
+      </Head>
+      <body id='page-top' data-spy='scroll' data-target='.navbar-fixed-top'>
+        <App />
         <Script type='text/javascript' src='/static/js/bootstrap.js'></Script>
       </body>
     </div>
