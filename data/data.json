@@ -1,0 +1,174 @@
+{
+  "Header": {
+    "title": "HIMO WORLD",
+    "paragraph": "An NFT game that everyone can actually enjoy."
+  },
+  "About": {
+    "paragraph": "Himo World is an NFT game with a Play-to-Earn feature, in which players can engage in battles with others, build their team to their favourite to explore the universe, or choose to become observers of the war. This game is also providing a true Free-to-Play experience, which a lot of other NFT games in the market is lacking at the moment. Setting up in a distant realm, the player just awoke his summoning power, and realize they now are in the middle of the war between realms, where they fight against each other in a battle of strengths and wits.",
+    "Why": [
+      "Free to play",
+      "Play to earn",
+      "Competitive gameplay",
+      "Strong economy model"
+    ],
+    "Why2": ["Tournament", "Betting system", "Grinding", "RNG element"]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-gem",
+      "name": "Tournament",
+      "text": "Biggest source of $HIM, you can earn by winning a tournament."
+    },
+    {
+      "icon": "fa fa-coins",
+      "name": "Betting",
+      "text": "Don't like to actual engage in the battle? No worry, you can use your observation skill and win by betting on the players."
+    },
+    {
+      "icon": "fa fa-handshake",
+      "name": "Merchant",
+      "text": "Money is all you care about? Grinding and sell heroes/items/skill cards you get from PvE to the one need it."
+    },
+    {
+      "icon": "fa fa-random",
+      "name": "Get better skills",
+      "text": "Use $HIM to get a better chance for you hero skill set."
+    },
+    {
+      "icon": "fa fa-undo-alt",
+      "name": "Undo your misfortune",
+      "text": "Get an unwanted skill? Don't worry, you can undo it using $HIM."
+    },
+    {
+      "icon": "fa fa-crown",
+      "name": "Premium Tournament",
+      "text": "You heard it right. A superior tournament for people who really into the game and want to get more rewards"
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.png",
+      "name": "Dat Duong",
+      "job": "CEO"
+    },
+    {
+      "img": "img/team/02.png",
+      "name": "Quan Vu",
+      "job": "CTO"
+    },
+    {
+      "img": "img/team/03.png",
+      "name": "Long 'maba' Le",
+      "job": "Co-Founder"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-cogs",
+      "title": "Mechanic",
+      "text": "The game using a turn based Match-3 mechanic, an easy to play but hard to master gameplay. It’s a perfect combination for a midcore players."
+    },
+    {
+      "icon": "fa fa-qrcode",
+      "title": "Game modes",
+      "text": "There are multiple ways for the player to enjoy the game: Seasonal Ranking, Tournament, PvE Rogue-like, Betting"
+    },
+    {
+      "icon": "fa fa-user-secret",
+      "title": "Heroes and Skills",
+      "text": "The player will have 4 heroes to form a team, and engage in the battle with them. Each hero will have 5-6 skill slots, in which the skill will be triggered differently in the combat, based on the slot it in."
+    }
+  ]
+}
