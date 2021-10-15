@@ -161,14 +161,14 @@
       "text": "The game using a turn based Match-3 mechanic, an easy to play but hard to master gameplay. It’s a perfect combination for a midcore players."
     },
     {
-      "icon": "fa fa-qrcode",
-      "title": "Game modes",
-      "text": "There are multiple ways for the player to enjoy the game: Seasonal Ranking, Tournament, PvE Rogue-like, Betting"
-    },
-    {
       "icon": "fa fa-user-secret",
       "title": "Heroes and Skills",
       "text": "The player will have 4 heroes to form a team, and engage in the battle with them. Each hero will have 5-6 skill slots, in which the skill will be triggered differently in the combat, based on the slot it in."
+    },
+    {
+      "icon": "fa fa-qrcode",
+      "title": "Game modes",
+      "text": "There are multiple ways for the player to enjoy the game: Seasonal Ranking, Tournament, PvE Rogue-like, Betting"
     }
   ]
 }
