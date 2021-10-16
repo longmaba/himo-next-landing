@@ -1,19 +1,7 @@
-import { useEffect, useRef } from "react";
-
 export const About = (props) => {
-  const wrapper = useRef();
-
-  useEffect(() => {
-    if (!props || !props.fadeInHandler || !wrapper.current) {
-      return;
-    }
-    props.fadeInHandler(wrapper.current);
-    return () => {};
-  }, [props]);
-
   return (
     <div id="about">
-      <div className="container" ref={wrapper}>
+      <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6">
             <img src="/static/img/PvE.jpg" className="img-responsive" alt="" />

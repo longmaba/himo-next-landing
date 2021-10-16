@@ -11,12 +11,10 @@ export const Header = (props) => {
     let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${
       50 - (_mouseY - _h) * 0.01
     }%`;
-    let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${
-      50 - (_mouseY - _h) * 0.02
+    let _depth2 = `${50 - (_mouseX - _w) * 0.01}% ${
+      50 - (_mouseY - _h) * 0.01
     }%`;
-    let _depth3 = `${50 - (_mouseX - _w) * 0.01}% ${
-      50 - (_mouseY - _h) * 0.03
-    }%`;
+    let _depth3 = `50% ${50 - (_mouseY - _h) * 0.02}%`;
 
     let x = `${_depth3}, ${_depth2}, ${_depth1}`;
     introElement.current.style.backgroundPosition = x;
@@ -45,7 +43,7 @@ export const Header = (props) => {
               </p>
               <a href="#about" className="btn btn-custom btn-lg page-scroll">
                 Learn More
-              </a>{" "}
+              </a>
             </div>
           </div>
         </div>

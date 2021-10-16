@@ -1,19 +1,7 @@
-import { useEffect, useRef } from "react";
-
 export const Team = (props) => {
-  const wrapper = useRef();
-
-  useEffect(() => {
-    if (!props || !props.fadeInHandler || !wrapper.current) {
-      return;
-    }
-    props.fadeInHandler(wrapper.current);
-    return () => {};
-  }, [props]);
-
   return (
     <div id="team" className="text-center">
-      <div className="container" ref={wrapper}>
+      <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Meet the Team</h2>
           <p>
@@ -26,7 +14,6 @@ export const Team = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
                   <div className="thumbnail">
-                    {" "}
                     <img src={d.img} alt="..." className="team-img" />
                     <div className="caption">
                       <h4>{d.name}</h4>

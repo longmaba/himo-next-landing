@@ -1,19 +1,7 @@
-import { useEffect, useRef } from "react";
-
 export const Features = (props) => {
-  const wrapper = useRef();
-
-  useEffect(() => {
-    if (!props || !props.fadeInHandler || !wrapper.current) {
-      return;
-    }
-    props.fadeInHandler(wrapper.current);
-    return () => {};
-  }, [props]);
-
   return (
     <div id="features" className="text-center">
-      <div className="container" ref={wrapper}>
+      <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
           <h2>Gameplay</h2>
           <p>

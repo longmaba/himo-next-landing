@@ -23,39 +23,18 @@ const App = () => {
     setLandingPageData(JsonData);
   }, []);
 
-  const fadeInHandler = (element) => {
-    if (!element) {
-      return;
-    }
-    element.style.opacity = 0;
-
-    document.addEventListener("scroll", () => {
-      if (window.scrollY >= element.offsetTop) {
-        if (element.style.opacity < 1) {
-          element.style.opacity = parseFloat(element.style.opacity) + 0.01;
-        }
-      }
-    });
-  };
-
   return (
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
       <div className="background-overlay">
-        <About data={landingPageData.About} fadeInHandler={fadeInHandler} />
-        <Features
-          data={landingPageData.Features}
-          fadeInHandler={fadeInHandler}
-        />
-        <NFTItems fadeInHandler={fadeInHandler} />
-        <Services
-          data={landingPageData.Services}
-          fadeInHandler={fadeInHandler}
-        />
+        <About data={landingPageData.About} />
+        <Features data={landingPageData.Features} />
+        <NFTItems />
+        <Services data={landingPageData.Services} />
         {/* <Gallery data={landingPageData.Gallery} /> */}
         {/* <Testimonials data={landingPageData.Testimonials} /> */}
-        <Team data={landingPageData.Team} fadeInHandler={fadeInHandler} />
+        <Team data={landingPageData.Team} />
       </div>
       <Contact data={landingPageData.Contact} />
     </div>

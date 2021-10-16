@@ -1,19 +1,7 @@
-import { useEffect, useRef } from "react";
-
 export const Services = (props) => {
-  const wrapper = useRef();
-
-  useEffect(() => {
-    if (!props || !props.fadeInHandler || !wrapper.current) {
-      return;
-    }
-    props.fadeInHandler(wrapper.current);
-    return () => {};
-  }, [props]);
-
   return (
     <div id="services" className="text-center">
-      <div className="container" ref={wrapper}>
+      <div className="container">
         <div className="section-title">
           <h2>What is $HIM token?</h2>
           <p>
@@ -27,7 +15,6 @@ export const Services = (props) => {
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">
-                  {" "}
                   <i className={d.icon}></i>
                   <div className="service-desc">
                     <h3>{d.name}</h3>
