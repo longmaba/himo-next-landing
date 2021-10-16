@@ -30,7 +30,7 @@ const App = () => {
     element.style.opacity = 0;
 
     document.addEventListener("scroll", () => {
-      if (window.scrollY >= element.getBoundingClientRect().top) {
+      if (window.scrollY >= element.offsetTop) {
         if (element.style.opacity < 1) {
           element.style.opacity = parseFloat(element.style.opacity) + 0.01;
         }
