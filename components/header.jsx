@@ -14,7 +14,7 @@ export const Header = (props) => {
     let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${
       50 - (_mouseY - _h) * 0.02
     }%`;
-    let _depth3 = `${50 - (_mouseX - _w) * 0.03}% ${
+    let _depth3 = `${50 - (_mouseX - _w) * 0.01}% ${
       50 - (_mouseY - _h) * 0.03
     }%`;
 
