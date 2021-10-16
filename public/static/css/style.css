@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: rgb(255, 255, 255);
@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-image: url("../img/bg_no_board.png");
+  background-image: url('../img/bg_no_board.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -18,7 +18,7 @@ body {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 h2 {
   text-transform: uppercase;
@@ -89,14 +89,14 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   font-size: 15px;
@@ -113,7 +113,7 @@ hr {
   width: 0;
   height: 2px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  content: "";
+  content: '';
   transition: width 0.2s;
 }
 #menu.navbar-default .navbar-nav > li > a:hover:after {
@@ -134,7 +134,7 @@ hr {
   width: 100% !important;
   height: 2px !important;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
-  content: "" !important;
+  content: '' !important;
   transition: width 0.2s !important;
 }
 .navbar-toggle {
@@ -159,7 +159,7 @@ hr {
 }
 .section-title h2::after {
   position: absolute;
-  content: "";
+  content: '';
   background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
   height: 4px;
   width: 60px;
@@ -171,7 +171,7 @@ hr {
   font-size: 18px;
 }
 .btn-custom {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
@@ -217,8 +217,8 @@ a:focus,
   width: 100%;
   padding: 0;
   /* background: url(../img/intro-bg.jpg) center center no-repeat; */
-  background-image: url("../img/layer_1.png"), url("../img/layer_2.png"),
-    url("../img/layer_3.png");
+  background-image: url('../img/layer_1.png'), url('../img/layer_2.png'),
+    url('../img/layer_3.png');
   background-repeat: no-repeat;
   background-position: center;
   background-position: 50% 50%;
@@ -239,7 +239,7 @@ a:focus,
   height: 100vh;
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #fff;
   font-size: 82px;
   font-weight: 700;
@@ -293,7 +293,7 @@ header .intro-text {
 }
 #about h2::after {
   position: absolute;
-  content: "";
+  content: '';
   background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
   height: 4px;
   width: 60px;
@@ -307,8 +307,8 @@ header .intro-text {
   padding: 0;
 }
 #about .about-text li:before {
-  content: "\f00c";
-  font-family: "Font Awesome 5 Free";
+  content: '\f00c';
+  font-family: 'Font Awesome 5 Free';
   color: #5ca9fb;
   font-size: 11px;
   font-weight: 900;
@@ -317,9 +317,7 @@ header .intro-text {
 #about img {
   width: 520px;
   margin-top: 10px;
-  background: #fff;
   border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
 #about p {
   line-height: 24px;
@@ -338,7 +336,7 @@ header .intro-text {
 }
 #services .section-title h2::after {
   position: absolute;
-  content: "";
+  content: '';
   background: rgba(255, 255, 255, 0.3);
   height: 4px;
   width: 60px;
@@ -494,7 +492,7 @@ header .intro-text {
 }
 #contact .section-title h2::after {
   position: absolute;
-  content: "";
+  content: '';
   background: rgba(255, 255, 255, 0.3);
   height: 4px;
   width: 60px;
@@ -527,7 +525,7 @@ header .intro-text {
 label {
   font-size: 12px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   float: left;
 }
 #contact .form-control {
