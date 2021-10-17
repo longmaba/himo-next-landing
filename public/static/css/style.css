@@ -624,6 +624,10 @@ label {
   position: relative;
 }
 
+.container{
+  width: 100%;
+}
+
 @media (max-width: 1280px) {
   .background-overlay {
     min-width: auto;

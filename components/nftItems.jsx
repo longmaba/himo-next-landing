@@ -7,6 +7,7 @@ export const NFTItems = (props) => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
+    style: { margin: '0 35px' },
     responsive: [
       {
         breakpoint: 1024,
