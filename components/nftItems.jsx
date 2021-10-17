@@ -2,13 +2,11 @@ import Slider from 'react-slick';
 
 export const NFTItems = (props) => {
   const settings = {
-    className: 'center',
-    centerMode: true,
     infinite: true,
-    centerPadding: '60px',
     slidesToShow: 3,
     slidesToScroll: 1,
-    speed: 500,
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1024,
@@ -37,6 +35,9 @@ export const NFTItems = (props) => {
           /> */}
         <Slider {...settings}>
           <div>
+            <img src="/static/img/nft_0.png" style={{ width: '100%' }} alt="" />
+          </div>
+          <div>
             <img src="/static/img/nft_1.png" style={{ width: '100%' }} alt="" />
           </div>
           <div>
@@ -46,7 +47,13 @@ export const NFTItems = (props) => {
             <img src="/static/img/nft_3.png" style={{ width: '100%' }} alt="" />
           </div>
           <div>
-            <img src="/static/img/nft_2.png" style={{ width: '100%' }} alt="" />
+            <img src="/static/img/nft_4.png" style={{ width: '100%' }} alt="" />
+          </div>
+          <div>
+            <img src="/static/img/nft_5.png" style={{ width: '100%' }} alt="" />
+          </div>
+          <div>
+            <img src="/static/img/nft_6.png" style={{ width: '100%' }} alt="" />
           </div>
         </Slider>
       </div>
