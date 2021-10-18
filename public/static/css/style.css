@@ -220,19 +220,18 @@ a:focus,
   background-image: url('../img/1.png'), url('../img/2.png'),
     url('../img/3.png');
   background-repeat: no-repeat;
-  background-position: center;
-  background-position: 50% 50%;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   height: 100vh;
-  background-position: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-position: center;
+  background-position: 50% 50%;
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
@@ -258,6 +257,10 @@ a:focus,
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
+}
+.intro .logo{
+  height: 35vh;
+  max-width: 100%;
 }
 header .intro-text {
   padding-top: 350px;
@@ -599,6 +602,21 @@ label {
   background: #fff;
 }
 
+/* Roadmap Section */
+#roadmap {
+  padding-bottom: 100px;
+}
+
+.roadmap-img-wrapper{
+  width: 100%;
+  overflow: auto;
+}
+
+#roadmap .roadmap-img{
+  width: 100%;
+  min-width: 1024px;
+}
+
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
@@ -624,6 +642,20 @@ label {
   position: relative;
 }
 
+
+@media (max-width: 1280px) {
+  .background-overlay {
+    min-width: auto;
+  }
+  
+  .container{
+    width: 100%;
+  }
+
+  .intro {
+    background-position: 0;
+  }
+}
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
