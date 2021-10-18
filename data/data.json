@@ -148,6 +148,11 @@
       "img": "/static/img/team/05.png",
       "name": "Tung 'Lic' Son",
       "job": "Co-Founder"
+    },
+    {
+      "img": "/static/img/team/06.png",
+      "name": "Manh Nguyen",
+      "job": "Fullstack Blockchain Developer"
     }
   ],
   "Contact": {
