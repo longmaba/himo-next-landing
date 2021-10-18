@@ -663,4 +663,7 @@ label {
   .background-overlay {
     width: 100%;
   }
+  #roadmapimg {
+    content:url("/static/img/portrait_timeline.png")
+  }
 }

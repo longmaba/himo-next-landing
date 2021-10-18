@@ -7,7 +7,7 @@ export const RoadMap = (props) => {
         </div>
         <div id="row">
           <div className="roadmap-img-wrapper">
-            <img src="/static/img/roadmap.png" alt="" className="roadmap-img" />
+            <img src="/static/img/roadmap.png" id="roadmapimg" alt="" className="img-responsive" />
           </div>
         </div>
       </div>
