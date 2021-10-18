@@ -8,11 +8,11 @@ export const Header = (props) => {
     let _mouseX = e.clientX;
     let _mouseY = e.clientY;
 
-    let _depth1 = `${50 - (_mouseX - _w) * 0.02}% ${
-      50 - (_mouseY - _h) * 0.02
+    let _depth1 = `${50 - (_mouseX - _w) * 0.015}% ${
+      50 - (_mouseY - _h) * 0.015
     }%`;
-    let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${
-      50 - (_mouseY - _h) * 0.02
+    let _depth2 = `${50 - (_mouseX - _w) * 0.03}% ${
+      50 - (_mouseY - _h) * 0.03
     }%`;
     let _depth3 = `${50 - (_mouseX - _w) * -0.02}% ${
       50 - (_mouseY - _h) * -0.04

@@ -217,8 +217,8 @@ a:focus,
   width: 100%;
   padding: 0;
   /* background: url(../img/intro-bg.jpg) center center no-repeat; */
-  background-image: url('../img/layer_1.png'), url('../img/layer_2.png'),
-    url('../img/layer_3.png');
+  background-image: url('../img/1.png'), url('../img/2.png'),
+    url('../img/3.png');
   background-repeat: no-repeat;
   background-position: center;
   background-position: 50% 50%;
