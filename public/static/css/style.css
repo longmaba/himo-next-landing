@@ -220,19 +220,18 @@ a:focus,
   background-image: url('../img/layer_1.png'), url('../img/layer_2.png'),
     url('../img/layer_3.png');
   background-repeat: no-repeat;
-  background-position: center;
-  background-position: 50% 50%;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   height: 100vh;
-  background-position: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-position: center;
+  background-position: 50% 50%;
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
@@ -632,6 +631,10 @@ label {
   
   .container{
     width: 100%;
+  }
+
+  .intro {
+    background-position: 0;
   }
 }
 @media (max-width: 768px) {
