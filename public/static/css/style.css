@@ -258,6 +258,10 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
+.intro .logo{
+  height: 35vh;
+  max-width: 100%;
+}
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
@@ -596,6 +600,21 @@ label {
 #contact .social i.fa:hover {
   color: #608dfd;
   background: #fff;
+}
+
+/* Roadmap Section */
+#roadmap {
+  padding-bottom: 100px;
+}
+
+.roadmap-img-wrapper{
+  width: 100%;
+  overflow: auto;
+}
+
+#roadmap .roadmap-img{
+  width: 100%;
+  min-width: 1024px;
 }
 
 /* Footer Section*/
