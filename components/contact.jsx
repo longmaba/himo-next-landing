@@ -41,7 +41,7 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-envelope-o'></i> Email
                 </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                {props.data ? <a href={`mailto:${props.data.email}`}>{props.data.email}</a> : 'loading'}
               </p>
             </div>
           </div>
