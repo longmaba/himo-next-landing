@@ -3,9 +3,9 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>What is $HIM token?</h2>
+          <h2>What is $HIMO token?</h2>
           <p>
-            Powered by Binance Smart Chain (BSC), $HIM will be our main
+            Powered by Binance Smart Chain (BSC), $HIMO will be our main
             resources in the game. In traditional games, this could be
             gem/diamond, resources that the player has to purchase IAP to have
             or super hard to get.

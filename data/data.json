@@ -138,18 +138,23 @@
     {
       "img": "/static/img/team/03.png",
       "name": "Long 'maba' Le",
-      "job": "Co-Founder"
+      "job": "Co-Founder/Game Producer"
     },
     {
-      "img": "/static/img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "/static/img/team/04.jpeg",
+      "name": "Dat Pham Thanh",
+      "job": "Art Director"
+    },
+    {
+      "img": "/static/img/team/05.png",
+      "name": "Tung 'Lic' Son",
+      "job": "Co-Founder"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
+    "address": "Advanced Tower, 1st Floor Panama City, Panama",
     "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "email": "info@himo.world",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"

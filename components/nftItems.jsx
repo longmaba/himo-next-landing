@@ -25,7 +25,7 @@ export const NFTItems = (props) => {
         <div className="section-title">
           <h2>NFT Items</h2>
           <p>
-            We have original/ground-breaking new NFT model. Our model only consists of single ERC-20
+            We have original/ground-breaking new NFT model. Our model only consists of single BEP-20
             token and the rest are NFT.
           </p>
         </div>
