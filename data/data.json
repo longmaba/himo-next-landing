@@ -63,7 +63,7 @@
     {
       "img":"/static/img/him_tournament.png",
       "name": "Tournament",
-      "text": "Biggest source of $HIM, you can earn by winning a tournament."
+      "text": "Biggest source of $HIMO, you can earn by winning a tournament."
     },
     {
       "img":"/static/img/him_bet.png",
@@ -78,12 +78,12 @@
     {
       "img":"/static/img/him_skill.png",
       "name": "Get better skills",
-      "text": "Use $HIM to get a better chance for you hero skill set."
+      "text": "Use $HIMO to get a better chance for you hero skill set."
     },
     {
       "img":"/static/img/him_misfortune.png",
       "name": "Undo your misfortune",
-      "text": "Get an unwanted skill? Don't worry, you can undo it using $HIM."
+      "text": "Get an unwanted skill? Don't worry, you can undo it using $HIMO."
     },
     {
       "img":"/static/img/him_premium_tournament.png",
