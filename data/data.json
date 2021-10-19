@@ -61,32 +61,32 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-gem",
+      "img":"/static/img/him_tournament.png",
       "name": "Tournament",
       "text": "Biggest source of $HIM, you can earn by winning a tournament."
     },
     {
-      "icon": "fa fa-coins",
+      "img":"/static/img/him_bet.png",
       "name": "Betting",
       "text": "Don't like to actual engage in the battle? No worry, you can use your observation skill and win by betting on the players."
     },
     {
-      "icon": "fa fa-handshake",
+      "img":"/static/img/him_merchant.png",
       "name": "Merchant",
       "text": "Money is all you care about? Grinding and sell heroes/items/skill cards you get from PvE to the one need it."
     },
     {
-      "icon": "fa fa-random",
+      "img":"/static/img/him_skill.png",
       "name": "Get better skills",
       "text": "Use $HIM to get a better chance for you hero skill set."
     },
     {
-      "icon": "fa fa-undo-alt",
+      "img":"/static/img/him_misfortune.png",
       "name": "Undo your misfortune",
       "text": "Get an unwanted skill? Don't worry, you can undo it using $HIM."
     },
     {
-      "icon": "fa fa-crown",
+      "img":"/static/img/him_premium_tournament.png",
       "name": "Premium Tournament",
       "text": "You heard it right. A superior tournament for people who really into the game and want to get more rewards"
     }
