@@ -6,12 +6,8 @@ export const Gallery = (props) => {
       <div className='container'>
         <div className='section-title'>
           <h2>Backed By</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
         </div>
-        <div className='row'>
+        <div className='row justify-content-center'>
           <div className='portfolio-items'>
             {props.data
               ? props.data.map((d, i) => (
@@ -23,6 +19,7 @@ export const Gallery = (props) => {
                       title={d.title}
                       largeImage={d.largeImage}
                       smallImage={d.smallImage}
+                      href={d.href}
                     />
                   </div>
                 ))

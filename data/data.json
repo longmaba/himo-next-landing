@@ -14,49 +14,14 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "/static/img/portfolio/01-large.jpg",
-      "smallImage": "/static/img/portfolio/01-small.jpg"
+      "title": "Exnetwork",
+      "largeImage": "/static/img/backers/exnetwork.png",
+      "smallImage": "/static/img/backers/exnetwork.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "/static/img/portfolio/02-large.jpg",
-      "smallImage": "/static/img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "/static/img/portfolio/03-large.jpg",
-      "smallImage": "/static/img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "/static/img/portfolio/04-large.jpg",
-      "smallImage": "/static/img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "/static/img/portfolio/05-large.jpg",
-      "smallImage": "/static/img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "/static/img/portfolio/06-large.jpg",
-      "smallImage": "/static/img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "/static/img/portfolio/07-large.jpg",
-      "smallImage": "/static/img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "/static/img/portfolio/08-large.jpg",
-      "smallImage": "/static/img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "/static/img/portfolio/09-large.jpg",
-      "smallImage": "/static/img/portfolio/09-small.jpg"
+      "title": "Spores Network",
+      "largeImage": "/static/img/backers/spores.png",
+      "smallImage": "/static/img/backers/spores.png"
     }
   ],
   "Services": [
@@ -123,38 +88,63 @@
       "name": "Johnathan Doe"
     }
   ],
-  "Team": [
-    {
-      "img": "/static/img/team/01.png",
-      "name": "Dat Duong",
-      "job": "CEO"
-    },
-    {
-      "img": "/static/img/team/02.png",
-      "name": "Quan Vu",
-      "job": "CTO"
-    },
-    {
-      "img": "/static/img/team/03.png",
-      "name": "Long 'maba' Le",
-      "job": "Co-Founder/Game Producer"
-    },
-    {
-      "img": "/static/img/team/04.jpeg",
-      "name": "Dat Pham Thanh",
-      "job": "Art Director"
-    },
-    {
-      "img": "/static/img/team/05.png",
-      "name": "Tung 'Lic' Son",
-      "job": "Co-Founder"
-    },
-    {
-      "img": "/static/img/team/06.png",
-      "name": "Manh Nguyen",
-      "job": "Fullstack Blockchain Developer"
-    }
-  ],
+  "Team": {
+    "title": "Meet the team",
+    "description": "We are a team consists of experts and core members of big companies in both gaming and blockchain industry.",
+    "team": [
+      {
+        "img": "/static/img/team/01.png",
+        "name": "Dat Duong",
+        "job": "CEO"
+      },
+      {
+        "img": "/static/img/team/02.png",
+        "name": "Quan Vu",
+        "job": "CTO"
+      },
+      {
+        "img": "/static/img/team/03.png",
+        "name": "Long 'maba' Le",
+        "job": "Co-Founder/Game Producer"
+      },
+      {
+        "img": "/static/img/team/04.jpeg",
+        "name": "Dat Pham Thanh",
+        "job": "Art Director"
+      },
+      {
+        "img": "/static/img/team/05.png",
+        "name": "Tung 'Lic' Le",
+        "job": "Co-Founder"
+      },
+      {
+        "img": "/static/img/team/06.png",
+        "name": "Manh Nguyen",
+        "job": "Fullstack Blockchain Developer"
+      },
+      {
+        "img": "/static/img/team/ericsu.png",
+        "name": "Eric Su",
+        "job": "Exnetwork Founder/Advisor"
+      }
+    ]
+  },
+  "Backer": {
+    "title": "Backers",
+    "description": "We are a team consists of experts and core members of big companies in both gaming and blockchain industry.",
+    "team": [
+      {
+        "img": "/static/img/team/exnetwork.png",
+        "name": "Exnetwork",
+        "job": "VC"
+      },
+      {
+        "img": "/static/img/backers/spores.png",
+        "name": "Spores Network",
+        "job": "VC"
+      }
+    ]
+  },
   "Contact": {
     "address": "Advanced Tower, 1st Floor Panama City, Panama",
     "phone": "+1 123 456 1234",
