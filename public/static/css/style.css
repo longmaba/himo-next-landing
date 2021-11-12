@@ -384,6 +384,14 @@ header .intro-text {
 #portfolio {
   padding: 100px 0;
 }
+
+.portfolio-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 15px;
+}
+
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
@@ -486,6 +494,10 @@ header .intro-text {
 #team .thumbnail .caption {
   padding: 10px 0 0;
   color: #efeeee;
+}
+
+.member {
+  min-height: 250px;
 }
 /* Contact Section */
 #contact {
@@ -616,7 +628,7 @@ label {
 
 /* Roadmap Section */
 #roadmap {
-  padding-bottom: 100px;
+  padding: 100px 15px;
 }
 
 .roadmap-img-wrapper{

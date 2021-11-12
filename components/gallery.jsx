@@ -2,26 +2,23 @@ import { Image } from './image';
 
 export const Gallery = (props) => {
   return (
-    <div id='portfolio' className='text-center'>
-      <div className='container'>
-        <div className='section-title'>
+    <div id="portfolio" className="text-center">
+      <div className="container">
+        <div className="section-title">
           <h2>Backed By</h2>
         </div>
-        <div className='row justify-content-center'>
-          <div className='portfolio-items'>
+        <div className="row justify-content-center">
+          <div className="portfolio-items">
             {props.data
               ? props.data.map((d, i) => (
-                  <div
-                    key={`${d.title}-${i}`}
-                    className='col-sm-6 col-md-4 col-lg-4'
-                  >
-                    <Image
-                      title={d.title}
-                      largeImage={d.largeImage}
-                      smallImage={d.smallImage}
-                      href={d.href}
-                    />
-                  </div>
+                  <Image
+                    key={i}
+                    title={d.title}
+                    largeImage={d.largeImage}
+                    smallImage={d.smallImage}
+                    href={d.href}
+                    alt=""
+                  />
                 ))
               : 'Loading...'}
           </div>
