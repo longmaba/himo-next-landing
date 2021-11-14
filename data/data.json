@@ -22,6 +22,16 @@
       "title": "Spores Network",
       "largeImage": "/static/img/backers/spores.png",
       "smallImage": "/static/img/backers/spores.png"
+    },
+    {
+      "title": "Mochilab",
+      "largeImage": "/static/img/backers/mochilab.jpg",
+      "smallImage": "/static/img/backers/mochilab.jpg"
+    },
+    {
+      "title": "Vitex",
+      "largeImage": "/static/img/backers/vitex.png",
+      "smallImage": "/static/img/backers/vitex.png"
     }
   ],
   "Services": [
@@ -141,6 +151,16 @@
       {
         "img": "/static/img/backers/spores.png",
         "name": "Spores Network",
+        "job": "VC"
+      },
+      {
+        "img": "/static/img/backers/mochilab.jpg",
+        "name": "MochiLab",
+        "job": "VC"
+      },
+      {
+        "img": "/static/img/backers/vitex.png",
+        "name": "Vitex",
         "job": "VC"
       }
     ]
