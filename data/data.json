@@ -147,11 +147,10 @@
   },
   "Contact": {
     "address": "Advanced Tower, 1st Floor Panama City, Panama",
-    "phone": "+1 123 456 1234",
     "email": "info@himo.world",
-    "facebook": "#contact",
-    "twitter": "#contact",
-    "youtube": "#contact"
+    "medium": "https://himoworld.medium.com",
+    "twitter": "https://twitter.com/himoverse",
+    "telegram": "#contact"
   },
   "Features": [
     {
