@@ -10,16 +10,11 @@ export const Gallery = (props) => {
         <div className="row justify-content-center">
           <div className="portfolio-items">
             {props.data
-              ? props.data.map((d, i) => (
-                  <Image
-                    key={i}
-                    title={d.title}
-                    largeImage={d.largeImage}
-                    smallImage={d.smallImage}
-                    href={d.href}
-                    alt=""
-                  />
-                ))
+              ? props.data.map((d, i) => {
+                  return (
+                    <img className="portfolio-item" key={i} src={d.largeImage} alt="" height={80} />
+                  );
+                })
               : 'Loading...'}
           </div>
         </div>

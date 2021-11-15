@@ -387,14 +387,14 @@ header .intro-text {
 
 .portfolio-items {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   padding: 0 15px;
 }
 
 .portfolio-item {
-  margin: 1px -15px 0 -14px;
-  padding: 0;
+  margin: 20px;
 }
 .portfolio-item .hover-bg {
   overflow: hidden;
