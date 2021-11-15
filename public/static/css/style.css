@@ -395,7 +395,21 @@ header .intro-text {
 
 .portfolio-item {
   margin: 20px;
+  height: 60px;
 }
+
+@media (max-width: 320px) {
+    .portfolio-item {
+      height: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .portfolio-item {
+      height: 80px;
+    }
+}
+
 .portfolio-item .hover-bg {
   overflow: hidden;
   position: relative;

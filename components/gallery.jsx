@@ -12,7 +12,7 @@ export const Gallery = (props) => {
             {props.data
               ? props.data.map((d, i) => {
                   return (
-                    <img className="portfolio-item" key={i} src={d.largeImage} alt="" height={80} />
+                    <img className="portfolio-item" key={i} src={d.largeImage} alt="" />
                   );
                 })
               : 'Loading...'}
