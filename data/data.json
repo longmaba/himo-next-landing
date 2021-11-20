@@ -25,13 +25,18 @@
     },
     {
       "title": "Mochilab",
-      "largeImage": "/static/img/backers/mochilab.jpg",
-      "smallImage": "/static/img/backers/mochilab.jpg"
+      "largeImage": "/static/img/backers/mochi.png",
+      "smallImage": "/static/img/backers/mochi.png"
     },
     {
       "title": "Vitex",
       "largeImage": "/static/img/backers/vitex.png",
       "smallImage": "/static/img/backers/vitex.png"
+    },
+    {
+      "title": "Oddiyana",
+      "largeImage": "/static/img/backers/oddiyana.png",
+      "smallImage": "/static/img/backers/oddiyana.png"
     }
   ],
   "Services": [
