@@ -42,6 +42,11 @@
       "title": "Golden Shovel",
       "largeImage": "/static/img/backers/goldenshovel.png",
       "smallImage": "/static/img/backers/goldenshovel.png"
+    },
+    {
+      "title": "Hawks Hunters",
+      "largeImage": "/static/img/backers/hawkhunter.png",
+      "smallImage": "/static/img/backers/hawkhunter.png"
     }
   ],
   "Services": [
