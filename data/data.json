@@ -118,6 +118,11 @@
         "job": "Co-Founder/Game Producer"
       },
       {
+        "img": "/static/img/team/vu.png",
+        "name": "Vu Nguyen",
+        "job": "CMO"
+      },
+      {
         "img": "/static/img/team/04.jpeg",
         "name": "Dat Pham Thanh",
         "job": "Art Director"
@@ -170,7 +175,7 @@
     "email": "info@himo.world",
     "medium": "https://himoworld.medium.com",
     "twitter": "https://twitter.com/himoverse",
-    "telegram": "#contact"
+    "telegram": "https://t.me/HimoWorldOfficial"
   },
   "Features": [
     {
