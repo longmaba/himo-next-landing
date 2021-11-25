@@ -47,6 +47,11 @@
       "title": "Hawks Hunters",
       "largeImage": "/static/img/backers/hawkhunter.png",
       "smallImage": "/static/img/backers/hawkhunter.png"
+    },
+    {
+      "title": "Insignius Capital",
+      "largeImage": "/static/img/backers/insignius.png",
+      "smallImage": "/static/img/backers/insignius.png"
     }
   ],
   "Services": [
