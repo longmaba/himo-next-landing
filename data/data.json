@@ -42,6 +42,16 @@
       "title": "Golden Shovel",
       "largeImage": "/static/img/backers/goldenshovel.png",
       "smallImage": "/static/img/backers/goldenshovel.png"
+    },
+    {
+      "title": "Hawks Hunters",
+      "largeImage": "/static/img/backers/hawkhunter.png",
+      "smallImage": "/static/img/backers/hawkhunter.png"
+    },
+    {
+      "title": "Insignius Capital",
+      "largeImage": "/static/img/backers/insignius.png",
+      "smallImage": "/static/img/backers/insignius.png"
     }
   ],
   "Services": [
@@ -125,7 +135,12 @@
       {
         "img": "/static/img/team/03.png",
         "name": "Long 'maba' Le",
-        "job": "Co-Founder/Game Producer"
+        "job": "CPO/Co-Founder"
+      },
+      {
+        "img": "/static/img/team/vu.png",
+        "name": "Vu Nguyen",
+        "job": "CMO"
       },
       {
         "img": "/static/img/team/04.jpeg",
@@ -180,7 +195,7 @@
     "email": "info@himo.world",
     "medium": "https://himoworld.medium.com",
     "twitter": "https://twitter.com/himoverse",
-    "telegram": "#contact"
+    "telegram": "https://t.me/HimoWorldOfficial"
   },
   "Features": [
     {
