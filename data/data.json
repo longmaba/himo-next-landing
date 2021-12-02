@@ -52,6 +52,21 @@
       "title": "Insignius Capital",
       "largeImage": "/static/img/backers/insignius.png",
       "smallImage": "/static/img/backers/insignius.png"
+    },
+    {
+      "title": "MH Ventures",
+      "largeImage": "/static/img/backers/mhventures.png",
+      "smallImage": "/static/img/backers/mhventures.png"
+    },
+    {
+      "title": "Poolz Finance",
+      "largeImage": "/static/img/backers/poolz.png",
+      "smallImage": "/static/img/backers/poolz.png"
+    },
+    {
+      "title": "Wealth Union",
+      "largeImage": "/static/img/backers/wealthunion.png",
+      "smallImage": "/static/img/backers/wealthunion.png"
     }
   ],
   "Services": [
