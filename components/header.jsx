@@ -22,7 +22,7 @@ export const Header = (props) => {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 intro-text">
-              <img src="/static/img/himo-logo.png" alt="" className="logo" />
+              <img src="/static/img/logo_version_2_color.png" alt="" className="logo" />
               <p>
                 <mark
                   style={{
