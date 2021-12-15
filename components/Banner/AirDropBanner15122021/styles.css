@@ -1,0 +1,226 @@
+.ad-banner-15122021_container {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../../../public/static/img/banner/airdrop15122021_desktop_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    padding: 16px 0;
+    box-sizing: border-box;
+}
+
+
+.ad-banner-15122021_wrapper {
+    display: flex;
+    flex: 1;
+    width: 100vw;
+}
+
+.ad-banner-15122021_lootbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ad-banner-15122021_lootbox > img {
+    width: 50vw;
+}
+
+.ad-banner-15122021_content-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ad-banner-15122021_content-logo {
+    width: 10vw;
+    margin-bottom: 5vh;
+}
+
+.ad-banner-15122021_content-image {
+    width: 40vw;
+}
+
+.ad-banner-15122021_button-group {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+}
+
+.ad-banner-15122021_term-button {
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.ad-banner-15122021_term-button:hover {
+    opacity: 0.8;
+}
+
+.ad-banner-15122021_button-group-part {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.ad-banner-15122021_button-with-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ad-banner-15122021_button-with-icon:hover {
+    opacity: 0.8;
+}
+
+.ad-banner-15122021_button-with-icon > img {
+    height: 3vw;
+}
+
+.ad-banner-15122021_button-with-icon > span {
+    font-size: 1.5vw;
+    margin-left: 8px;
+}
+
+.ad-banner-15122021_button-group-mobile {
+    display: none;
+}
+
+.ad-banner-15122021_button-group-mobile span {
+    margin-left: 0;
+    margin-top: 4px;
+}
+
+.ad-banner-15122021_lootbox .ad-banner-15122021_term-button { 
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .ad-banner-15122021_container {
+        background-image: url('../../../public/static/img/banner/airdrop15122021_mobile_bg.jpg');
+        flex-direction: column;
+    }
+
+    .ad-banner-15122021_button-group {
+        display: none;
+    }
+
+    .ad-banner-15122021_wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .ad-banner-15122021_content-wrapper {
+        justify-content: center;
+    }
+
+    .ad-banner-15122021_button-group-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .ad-banner-15122021_lootbox .ad-banner-15122021_term-button {
+        display: block;
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .ad-banner-15122021_lootbox > img {
+        width: 100vw;
+    }
+
+    .ad-banner-15122021_content-image {
+        width: 80vw;
+    }
+
+    .ad-banner-15122021_content-logo {
+        width: 30vw;
+        margin-bottom: 8px;
+    }
+
+    .ad-banner-15122021_button-group-mobile .ad-banner-15122021_button-with-icon {
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 360px) { 
+    
+    .ad-banner-15122021_lootbox .ad-banner-15122021_term-button {
+        display: block;
+        font-size: 12px;
+    }
+
+    .ad-banner-15122021_button-group-mobile img {
+        height: 30px;
+    }
+
+    .ad-banner-15122021_button-group-mobile span {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (min-width: 361px) and (max-width: 425px) {
+
+    .ad-banner-15122021_lootbox .ad-banner-15122021_term-button {
+        display: block;
+        font-size: 16px;
+    }
+
+    .ad-banner-15122021_button-group-mobile img {
+        height: 35px;
+    }
+
+    .ad-banner-15122021_button-group-mobile span {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+    .ad-banner-15122021_content-logo {
+        width: 30vw;
+        margin-bottom: 24px;
+    }
+
+    .ad-banner-15122021_button-with-icon img {
+        height: 6vw;
+    }
+
+    .ad-banner-15122021_button-with-icon span {
+        margin-left: 1vw;
+        font-size: 3vw;
+    }
+
+    .ad-banner-15122021_content-image {
+        width: 70vw;
+    }
+
+    .ad-banner-15122021_lootbox img {
+        width: 70vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 938px) {
+    .ad-banner-15122021_container {
+        margin-top: 170px;
+        padding: 24px;
+    }
+}
+
+@media screen and (min-width: 939px) and (max-width: 1024px) {
+    .ad-banner-15122021_container {
+        margin-top: 125px;
+        padding: 24px;
+    }
+}

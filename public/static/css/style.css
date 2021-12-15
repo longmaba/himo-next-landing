@@ -398,16 +398,16 @@ header .intro-text {
   height: 90px;
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .portfolio-item {
-      height: 50px;
+      height: 40px;
     }
 }
 
-@media (min-width: 768px) {
-    .portfolio-item {
-      height: 120px;
-    }
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  .portfolio-item {
+    height: 50px;
+  }
 }
 
 .portfolio-item .hover-bg {
