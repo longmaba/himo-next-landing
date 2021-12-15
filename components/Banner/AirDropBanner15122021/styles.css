@@ -12,7 +12,6 @@
     box-sizing: border-box;
 }
 
-
 .ad-banner-15122021_wrapper {
     display: flex;
     flex: 1;
@@ -45,6 +44,21 @@
 
 .ad-banner-15122021_content-image {
     width: 40vw;
+}
+
+.ad-banner-15122021_enter-giveaway-banner {
+    font-size: 2vw;
+    color: #fff;
+    background: #01295F;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 16px;
+    font-family: helvetica-neue-condensed-black;
+}
+
+.ad-banner-15122021_enter-giveaway-banner:hover {
+    background: #01295F90;
+    color: #ddd;
 }
 
 .ad-banner-15122021_button-group {
@@ -155,7 +169,11 @@
 }
 
 @media screen and (max-width: 360px) { 
-    
+    .ad-banner-15122021_enter-giveaway-banner {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
     .ad-banner-15122021_lootbox .ad-banner-15122021_term-button {
         display: block;
         font-size: 12px;
@@ -172,10 +190,14 @@
 }
 
 @media screen and (min-width: 361px) and (max-width: 425px) {
-
     .ad-banner-15122021_lootbox .ad-banner-15122021_term-button {
         display: block;
         font-size: 16px;
+    }
+
+    .ad-banner-15122021_enter-giveaway-banner {
+        font-size: 16px;
+        margin-bottom: 16px;
     }
 
     .ad-banner-15122021_button-group-mobile img {
@@ -191,6 +213,11 @@
     .ad-banner-15122021_content-logo {
         width: 30vw;
         margin-bottom: 24px;
+    }
+
+    .ad-banner-15122021_enter-giveaway-banner {
+        font-size: 24px;
+        margin-bottom: 16px;
     }
 
     .ad-banner-15122021_button-with-icon img {

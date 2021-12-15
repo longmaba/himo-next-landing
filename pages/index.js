@@ -35,6 +35,12 @@ export default function Home() {
         />
         <link rel="stylesheet" href="/static/fonts/font-awesome/css/all.css" />
         <link rel="stylesheet" href="/static/fonts/font-awesome/css/v4-shims.css" />
+        <link
+          rel="preload"
+          href="/static/fonts/fonts/helvetica-neue-condensed-black.tff"
+          as="font"
+          crossOrigin=""
+        />
         <title>Himo World</title>
         <meta name="description" content="" />
       </Head>
