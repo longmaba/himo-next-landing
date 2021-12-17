@@ -1,11 +1,12 @@
 import React from 'react';
 
 import { Layout } from '../components/Layout';
+import { AirDropBanner15122021 } from '../components/Banner/AirDropBanner15122021';
 
 const App = () => {
   return (
     <Layout>
-      <div style={{ height: '200vh' }}></div>
+      <AirDropBanner15122021 />
     </Layout>
   );
 };

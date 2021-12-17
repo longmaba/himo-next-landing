@@ -3,7 +3,7 @@ import { css } from '@emotion/react';
 export const styles = {
   container: (isTransparentHeader) => css`
     width: 100vw;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -17,7 +17,7 @@ export const styles = {
     `
         filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.4));
         border-radius: 0px 0px 16px 16px;
-        background: linear-gradient(60deg, rgba(55, 75, 140, 0.9) 4%, rgba(55, 75, 140, 0.87) 17%, rgba(58, 92, 158, 0.79) 51%, rgba(59, 100, 166, 0.69) 66%, rgba(59, 100, 166, 0.5) 94%);
+        background: linear-gradient(60deg, rgba(55, 75, 140, 1) 4%, rgba(55, 75, 140, 1) 17%, rgba(58, 92, 158, 1) 51%, rgba(59, 100, 166, 1) 66%, rgba(59, 100, 166, 1) 94%);
     `}
 
     @media screen and (max-width: 1024px) {
@@ -25,11 +25,11 @@ export const styles = {
       border-radius: 0px 0px 16px 16px;
       background: linear-gradient(
         60deg,
-        rgba(55, 75, 140, 0.9) 4%,
-        rgba(55, 75, 140, 0.87) 17%,
-        rgba(58, 92, 158, 0.79) 51%,
-        rgba(59, 100, 166, 0.69) 66%,
-        rgba(59, 100, 166, 0.5) 94%
+        rgba(55, 75, 140, 1) 4%,
+        rgba(55, 75, 140, 1) 17%,
+        rgba(58, 92, 158, 1) 51%,
+        rgba(59, 100, 166, 1) 66%,
+        rgba(59, 100, 166, 1) 94%
       );
     }
 
