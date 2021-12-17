@@ -9,12 +9,12 @@ html {
   height: 100% !important;
   scroll-behavior: smooth;
 }
-body {
+/* body {
   background-image: url('../img/bg_no_board.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
+} */
 h2,
 h3,
 h4 {
