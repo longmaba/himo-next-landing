@@ -11,6 +11,7 @@ export const styles = {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    box-sizing: border-box;
   `,
   title: css`
     font-size: 48px;
@@ -19,8 +20,16 @@ export const styles = {
     font-weight: bold;
     text-shadow: 1px 3px 0px #2f2e6f, -1px -1px 0px #2f2e6f, 1px -1px 0px #2f2e6f,
       -1px 1px 0px #2f2e6f, 1px 1px 0px #2f2e6f;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
     text-align: center;
+
+    @media screen and (max-width: 360px) {
+      font-size: 24px;
+    }
+
+    @media screen and (min-width: 361px) and (max-width: 500px) {
+      font-size: 36px;
+    }
   `,
   description: css`
     font-family: century-gothic;
@@ -30,5 +39,14 @@ export const styles = {
     font-size: 22px;
     text-align: center;
     margin-bottom: 32px;
+
+    @media screen and (max-width: 360px) {
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+
+    @media screen and (min-width: 361px) and (max-width: 500px) {
+      font-size: 16px;
+    }
   `
 };
