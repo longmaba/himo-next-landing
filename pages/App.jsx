@@ -6,6 +6,7 @@ import { GamePlay } from '../components/GamePlay';
 import { TokenIntroducing } from '../components/TokenIntroducing';
 import { Teams } from '../components/Teams';
 import { Partners } from '../components/Partners';
+import { Roadmap } from '../components/Roadmap/index';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <TokenIntroducing />
       <Teams />
       <Partners />
+      <Roadmap />
     </Layout>
   );
 };
