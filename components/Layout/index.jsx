@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react';
 import { styles } from './styles';
 
 import { Header } from './Header';
+import { Footer } from './Footer';
+import { StickyMenu } from './StickyMenu';
 
 export const Layout = ({ children }) => {
   const [isTransparentHeader, setTransparentHeader] = useState(true);
@@ -22,7 +24,9 @@ export const Layout = ({ children }) => {
   return (
     <div id="layout" css={styles.container}>
       <Header isTransparentHeader={isTransparentHeader} />
+      <StickyMenu />
       {children}
+      <Footer />
     </div>
   );
 };

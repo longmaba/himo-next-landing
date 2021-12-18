@@ -17,13 +17,13 @@ export const styles = {
     ${!isTransparentHeader &&
     `
         filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.4));
-        border-radius: 0px 0px 16px 16px;
+        border-radius: 0px 0px 24px 24px;
         background: linear-gradient(60deg, rgba(55, 75, 140, 1) 4%, rgba(55, 75, 140, 1) 17%, rgba(58, 92, 158, 1) 51%, rgba(59, 100, 166, 1) 66%, rgba(59, 100, 166, 1) 94%);
     `}
 
     @media screen and (max-width: 1024px) {
       filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.4));
-      border-radius: 0px 0px 16px 16px;
+      border-radius: 0px 0px 24px 24px;
       background: linear-gradient(
         60deg,
         rgba(55, 75, 140, 1) 4%,
