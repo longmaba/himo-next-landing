@@ -1,6 +1,38 @@
 @font-face {
   font-family: 'helvetica-neue-condensed-black';
-  src: local('helvetica-neue-condensed-black'), url(../public/static/fonts/helvetica-neue-condensed-black.ttf) format('truetype');
+  src: local('helvetica-neue-condensed-black'), url(../public/static/fonts/helvetica-neue-condensed/helvetica-neue-condensed-black.ttf) format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'helvetica-neue-condensed';
+  src: local('helvetica-neue-condensed'), url(../public/static/fonts/helvetica-neue-condensed/helvetica-neue-condensed-bold.ttf) format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'helvetica-neue';
+  src: local('helvetica-neue'), url(../public/static/fonts/helvetica-neue/helvetica-neue-regular.ttf) format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'helvetica-neue';
+  src: local('helvetica-neue'), url(../public/static/fonts/helvetica-neue/helvetica-neue-medium.ttf) format('truetype');
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: 'helvetica-neue';
+  src: local('helvetica-neue'), url(../public/static/fonts/helvetica-neue/helvetica-neue-bold.ttf) format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'helvetica-neue';
+  src: local('helvetica-neue'), url(../public/static/fonts/helvetica-neue/helvetica-neue-bold-italic.ttf) format('truetype');
+  font-weight: bold;
+  font-style: italic;
 }
 
 @font-face {
