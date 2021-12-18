@@ -1,6 +1,8 @@
 /** @jsxImportSource @emotion/react */
 import { styles } from './styles';
 
+import { TELEGRAM_URL, TWITTER_URL, DISCORD_URL, FACEBOOK_URL } from '../../../utils/url';
+
 export const StickyMenu = () => {
   return (
     <div css={styles.container}>

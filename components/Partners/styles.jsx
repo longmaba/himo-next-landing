@@ -10,10 +10,11 @@ export const styles = {
     align-items: center;
   `,
   title: css`
-    font-family: century-gothic;
-    font-weight: bold;
     color: #fff;
-    text-shadow: -1px -1px 0 #2f2e6f, 1px -1px 0 #2f2e6f, -1px 1px 0 #2f2e6f, 1px 2px 0 #2f2e6f;
+    font-family: helvetica-neue-condensed;
+    font-weight: bold;
+    text-shadow: 1px 3px 0px #2f2e6f, -1px -1px 0px #2f2e6f, 1px -1px 0px #2f2e6f,
+      -1px 1px 0px #2f2e6f, 1px 1px 0px #2f2e6f;
     font-size: 48px;
     flex: 1;
     display: flex;

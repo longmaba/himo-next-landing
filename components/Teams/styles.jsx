@@ -26,7 +26,9 @@ export const styles = {
   title: css`
     font-size: 48px;
     margin-bottom: 32px;
-    text-shadow: -1px -1px 0 #2f2e6f, 1px -1px 0 #2f2e6f, -1px 1px 0 #2f2e6f, 1px 2px 0 #2f2e6f;
+    font-family: helvetica-neue-condensed;
+    text-shadow: 1px 3px 0px #2f2e6f, -1px -1px 0px #2f2e6f, 1px -1px 0px #2f2e6f,
+      -1px 1px 0px #2f2e6f, 1px 1px 0px #2f2e6f;
   `,
   description: css`
     font-size: 22px;

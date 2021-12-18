@@ -1,6 +1,8 @@
 /** @jsxImportSource @emotion/react */
 import { styles } from './styles';
 
+import { WHITEPAPER } from '../../../utils/url';
+
 export const Header = ({ isTransparentHeader }) => {
   return (
     <div css={styles.container(isTransparentHeader)}>
@@ -25,7 +27,7 @@ export const Header = ({ isTransparentHeader }) => {
       <div css={styles.buttonContainer}>
         <label>BLOG</label>
       </div>
-      <div css={styles.buttonContainer}>
+      <div onClick={() => window.open(WHITEPAPER, '_blank')} css={styles.buttonContainer}>
         <label>WHITEPAPER</label>
       </div>
     </div>

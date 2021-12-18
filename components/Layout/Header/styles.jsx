@@ -48,14 +48,19 @@ export const styles = {
     align-items: center;
     justify-content: center;
     height: 100%;
-    font-family: century-gothic;
-    font-weight: bold;
 
     label {
+      font-family: helvetica-neue-condensed;
+      font-weight: bold;
       color: #fff;
       font-size: 22px;
-      text-shadow: -1px -1px 0 #2f2e6f, 1px -1px 0 #2f2e6f, -1px 1px 0 #2f2e6f, 1px 2px 0 #2f2e6f;
+      text-shadow: 1px 3px 0px #2f2e6f, -1px -1px 0px #2f2e6f, 1px -1px 0px #2f2e6f,
+        -1px 1px 0px #2f2e6f, 1px 1px 0px #2f2e6f;
       cursor: pointer;
+
+      &:hover {
+        color: #ddd;
+      }
     }
 
     @media screen and (max-width: 1024px) {

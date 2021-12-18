@@ -1,10 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { styles } from './styles';
 
-const TWITTER_URL = 'https://twitter.com/himoverse';
-const TELEGRAM_URL = 'https://t.me/HimoWorldOfficial';
-const DISCORD_URL = 'https://discord.gg/himoworld';
-const FACEBOOK_URL = 'https://www.facebook.com/himo.world';
+import { TELEGRAM_URL, TWITTER_URL, DISCORD_URL, FACEBOOK_URL } from '../../../utils/url';
 
 export const Footer = () => {
   return (
