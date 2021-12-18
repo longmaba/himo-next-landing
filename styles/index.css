@@ -1,30 +1,30 @@
 @font-face {
   font-family: 'helvetica-neue-condensed-black';
-  src: local('helvetica-neue-condensed-black'), url(../public/static/fonts/fonts/helvetica-neue-condensed-black.ttf) format('truetype');
+  src: local('helvetica-neue-condensed-black'), url(../public/static/fonts/helvetica-neue-condensed-black.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'century-gothic';
-  src: local('century-gothic'), url(../public/static/fonts/fonts/century-gothic/century-gothic-medium.TTF) format('truetype');
+  src: local('century-gothic'), url(../public/static/fonts/century-gothic/century-gothic-medium.TTF) format('truetype');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'century-gothic';
-  src: local('century-gothic'), url(../public/static/fonts/fonts/century-gothic/century-gothic-bold.TTF) format('truetype');
+  src: local('century-gothic'), url(../public/static/fonts/century-gothic/century-gothic-bold.TTF) format('truetype');
   font-weight: bold;
 }
 
 @font-face {
   font-family: 'century-gothic';
-  src: local('century-gothic'), url(../public/static/fonts/fonts/century-gothic/century-gothic-italic.TTF) format('truetype');
+  src: local('century-gothic'), url(../public/static/fonts/century-gothic/century-gothic-italic.TTF) format('truetype');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'century-gothic';
-  src: local('century-gothic'), url(../public/static/fonts/fonts/century-gothic/century-gothic-bold-italic.TTF) format('truetype');
+  src: local('century-gothic'), url(../public/static/fonts/century-gothic/century-gothic-bold-italic.TTF) format('truetype');
   font-weight: bold;
   font-style: italic;
 }
