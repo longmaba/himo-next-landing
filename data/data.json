@@ -10,28 +10,38 @@
       "Competitive gameplay",
       "Strong economy model"
     ],
-    "Why2": ["Tournament", "Betting system", "Grinding", "RNG element"]
+    "Why2": [
+      "Tournament",
+      "Betting system",
+      "Grinding",
+      "RNG element"
+    ]
   },
   "Gallery": [
+    {
+      "title": "Azer Capital",
+      "largeImage": "/static/img/backers/azerCapital.png",
+      "smallImage": "/static/img/backers/azerCapital.png"
+    },
+    {
+      "title": "Golden Shovel",
+      "largeImage": "/static/img/backers/goldenshovel.png",
+      "smallImage": "/static/img/backers/goldenshovel.png"
+    },
+    {
+      "title": "MH Ventures",
+      "largeImage": "/static/img/backers/mhventures.png",
+      "smallImage": "/static/img/backers/mhventures.png"
+    },
+    {
+      "title": "Area 13",
+      "largeImage": "/static/img/backers/area13.png",
+      "smallImage": "/static/img/backers/area13.png"
+    },
     {
       "title": "Exnetwork",
       "largeImage": "/static/img/backers/exnetwork.png",
       "smallImage": "/static/img/backers/exnetwork.png"
-    },
-    {
-      "title": "Spores Network",
-      "largeImage": "/static/img/backers/spores.png",
-      "smallImage": "/static/img/backers/spores.png"
-    },
-    {
-      "title": "Mochilab",
-      "largeImage": "/static/img/backers/mochi.png",
-      "smallImage": "/static/img/backers/mochi.png"
-    },
-    {
-      "title": "Vitex",
-      "largeImage": "/static/img/backers/vitex.png",
-      "smallImage": "/static/img/backers/vitex.png"
     },
     {
       "title": "Oddiyana",
@@ -39,9 +49,24 @@
       "smallImage": "/static/img/backers/oddiyana.png"
     },
     {
-      "title": "Golden Shovel",
-      "largeImage": "/static/img/backers/goldenshovel.png",
-      "smallImage": "/static/img/backers/goldenshovel.png"
+      "title": "Vitex",
+      "largeImage": "/static/img/backers/vitex.png",
+      "smallImage": "/static/img/backers/vitex.png"
+    },
+    {
+      "title": "Mochilab",
+      "largeImage": "/static/img/backers/mochi.png",
+      "smallImage": "/static/img/backers/mochi.png"
+    },
+    {
+      "title": "Red Swiss Venture Capital",
+      "largeImage": "/static/img/backers/redSwiss.png",
+      "smallImage": "/static/img/backers/redSwiss.png"
+    },
+    {
+      "title": "Poolz Finance",
+      "largeImage": "/static/img/backers/poolz.png",
+      "smallImage": "/static/img/backers/poolz.png"
     },
     {
       "title": "Hawks Hunters",
@@ -54,49 +79,49 @@
       "smallImage": "/static/img/backers/insignius.png"
     },
     {
-      "title": "MH Ventures",
-      "largeImage": "/static/img/backers/mhventures.png",
-      "smallImage": "/static/img/backers/mhventures.png"
-    },
-    {
-      "title": "Poolz Finance",
-      "largeImage": "/static/img/backers/poolz.png",
-      "smallImage": "/static/img/backers/poolz.png"
-    },
-    {
       "title": "Wealth Union",
       "largeImage": "/static/img/backers/wealthunion.png",
       "smallImage": "/static/img/backers/wealthunion.png"
+    },
+    {
+      "title": "Spores Network",
+      "largeImage": "/static/img/backers/spores.png",
+      "smallImage": "/static/img/backers/spores.png"
+    },
+    {
+      "title": "Armament",
+      "largeImage": "/static/img/backers/armament.png",
+      "smallImage": "/static/img/backers/armament.png"
     }
   ],
   "Services": [
     {
-      "img":"/static/img/him_tournament.png",
+      "img": "/static/img/him_tournament.png",
       "name": "Tournament",
       "text": "Biggest source of $HIMO, you can earn by winning a tournament."
     },
     {
-      "img":"/static/img/him_bet.png",
+      "img": "/static/img/him_bet.png",
       "name": "Betting",
       "text": "Don't like to actual engage in the battle? No worry, you can use your observation skill and win by betting on the players."
     },
     {
-      "img":"/static/img/him_merchant.png",
+      "img": "/static/img/him_merchant.png",
       "name": "Merchant",
       "text": "Money is all you care about? Grinding and sell heroes/items/skill cards you get from PvE to the one need it."
     },
     {
-      "img":"/static/img/him_skill.png",
+      "img": "/static/img/him_skill.png",
       "name": "Get better skills",
       "text": "Use $HIMO to get a better chance for you hero skill set."
     },
     {
-      "img":"/static/img/him_misfortune.png",
+      "img": "/static/img/him_misfortune.png",
       "name": "Undo your misfortune",
       "text": "Get an unwanted skill? Don't worry, you can undo it using $HIMO."
     },
     {
-      "img":"/static/img/him_premium_tournament.png",
+      "img": "/static/img/him_premium_tournament.png",
       "name": "Premium Tournament",
       "text": "You heard it right. A superior tournament for people who really into the game and want to get more rewards"
     }
