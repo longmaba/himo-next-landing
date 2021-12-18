@@ -8,7 +8,7 @@ export const TokenIntroducing = () => {
         <div css={styles.largeTitle}>INTRODUCING</div>
         <div css={styles.smallerTitle}>HIMO TOKEN</div>
       </div>
-      <img src="/static/img/gameplay/token.png" alt="" />
+      <img src="/static/img/tokenIntroducing/token.png" alt="" />
     </div>
   );
 };

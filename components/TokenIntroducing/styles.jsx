@@ -6,7 +6,7 @@ export const styles = {
     height: 100vh;
     width: 100vw;
     box-sizing: border-box;
-    background-image: url('/static/img/gameplay/token_introducing_background@1.png');
+    background-image: url('/static/img/tokenIntroducing/token_introducing_background@1.png');
     background-size: cover;
 
     display: flex;
@@ -14,7 +14,7 @@ export const styles = {
     justify-content: center;
 
     img {
-      height: 70%;
+      width: 77%;
     }
   `,
   title: css`
