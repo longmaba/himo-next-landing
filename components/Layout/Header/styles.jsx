@@ -12,6 +12,7 @@ export const styles = {
     box-sizing: border-box;
     display: flex;
     align-items: center;
+    z-index: 10;
 
     ${!isTransparentHeader &&
     `
