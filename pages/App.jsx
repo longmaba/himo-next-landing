@@ -7,6 +7,7 @@ import { TokenIntroducing } from '../components/TokenIntroducing';
 import { Teams } from '../components/Teams';
 import { Partners } from '../components/Partners';
 import { Roadmap } from '../components/Roadmap/index';
+import { EmailSubcription } from '../components/EmailSubcription';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Teams />
       <Partners />
       <Roadmap />
+      <EmailSubcription />
     </Layout>
   );
 };

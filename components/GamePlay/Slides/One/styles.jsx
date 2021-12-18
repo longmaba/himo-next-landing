@@ -43,7 +43,7 @@ export const styles = {
     margin-right: 7.5vw;
 
     &:hover {
-      color: #f1f1f1;
+      color: #ddd;
     }
   `,
   textContent: css`
