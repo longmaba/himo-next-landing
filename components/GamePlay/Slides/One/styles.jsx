@@ -4,7 +4,7 @@ export const styles = {
   container: css`
     display: flex;
     align-items: center;
-    height: 70vh;
+    height: 100vh;
     display: flex;
   `,
   leftContent: css`
@@ -28,7 +28,7 @@ export const styles = {
     height: 100%;
 
     img {
-      height: 70%;
+      height: 60%;
     }
   `,
   moreinfoButton: css`
@@ -40,7 +40,7 @@ export const styles = {
     font-weight: bold;
     cursor: pointer;
     margin-bottom: 64px;
-    margin-right: 5vw;
+    margin-right: 7.5vw;
 
     &:hover {
       color: #f1f1f1;

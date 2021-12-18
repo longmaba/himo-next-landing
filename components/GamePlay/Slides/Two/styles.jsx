@@ -4,7 +4,7 @@ export const styles = {
   container: css`
     display: flex;
     align-items: center;
-    height: 70vh;
+    height: 100vh;
     display: flex;
   `,
   leftContent: css`
@@ -15,7 +15,7 @@ export const styles = {
     justify-content: center;
 
     img {
-      height: 70%;
+      height: 60%;
     }
   `,
   middleContent: css`
@@ -64,7 +64,7 @@ export const styles = {
     flex: 2;
 
     img {
-      height: 70%;
+      height: 60%;
     }
   `
 };

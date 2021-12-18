@@ -35,7 +35,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column;       
 }
 
 .ad-banner-15122021_lootbox > img {
@@ -140,7 +140,7 @@
     }
 
     .ad-banner-15122021_wrapper {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .ad-banner-15122021_content-wrapper {
