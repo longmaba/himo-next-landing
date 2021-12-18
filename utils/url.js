@@ -4,3 +4,4 @@ export const TWITTER_URL = 'https://twitter.com/himoverse';
 export const TELEGRAM_URL = 'https://t.me/HimoWorldOfficial';
 export const DISCORD_URL = 'https://discord.gg/himoworld';
 export const FACEBOOK_URL = 'https://www.facebook.com/himo.world';
+export const MEDIUM_URL = 'https://himoworld.medium.com/';

@@ -2,8 +2,9 @@
 import { useState } from 'react';
 import { styles } from './styles';
 
+import { MailSubmitForm } from '../MailSubmitForm';
+
 export const EmailSubcription = () => {
-  const [email, setEmail] = useState('');
   return (
     <div css={styles.container}>
       <div css={styles.description}>
@@ -11,15 +12,7 @@ export const EmailSubcription = () => {
         <div>the newest information related to the game</div>
       </div>
       <div css={styles.emailSubmitContainer}>
-        <div css={styles.emailSubmitForm}>
-          <input
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="TYPE YOUR EMAIL HERE..."
-          />
-
-          <div css={styles.submitButton}>SUBSCRIBE</div>
-        </div>
+        <MailSubmitForm />
       </div>
     </div>
   );

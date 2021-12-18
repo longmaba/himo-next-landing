@@ -25,5 +25,9 @@ export const styles = {
         opacity: 0.8;
       }
     }
+
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
   `
 };
