@@ -48,8 +48,8 @@
 
 .ad-banner-15122021_enter-giveaway-banner {
     font-size: 2vw;
-    color: #fff;
-    background: #01295F;
+    color: #01295F;
+    background: #fff;
     padding: 8px 16px;
     cursor: pointer;
     margin-top: 16px;
@@ -57,7 +57,6 @@
 }
 
 .ad-banner-15122021_enter-giveaway-banner:hover {
-    background: #01295F90;
     color: #ddd;
 }
 
