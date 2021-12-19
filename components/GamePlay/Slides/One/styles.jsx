@@ -6,6 +6,10 @@ export const styles = {
     align-items: center;
     height: 100vh;
     display: flex;
+
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+    }
   `,
   leftContent: css`
     flex: 1;
@@ -17,6 +21,14 @@ export const styles = {
 
     img {
       width: 40vw;
+
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 1024px) {
+      align-items: center;
     }
   `,
   rightContent: css`
@@ -29,6 +41,11 @@ export const styles = {
 
     img {
       height: 60%;
+    }
+
+    @media screen and (max-width: 1024px) {
+      align-items: flex-start;
+      justify-content: flex-start;
     }
   `,
   moreinfoButton: css`
@@ -44,6 +61,10 @@ export const styles = {
 
     &:hover {
       color: #ddd;
+    }
+
+    @media screen and (max-width: 1024px) {
+      display: none;
     }
   `,
   textContent: css`
