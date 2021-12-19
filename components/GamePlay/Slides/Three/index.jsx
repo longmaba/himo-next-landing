@@ -11,7 +11,7 @@ export const SlideThree = () => {
         </div>
       </div>
       <div css={styles.rightContent}>
-        <img src="/static/img/gameplay/gameplay@3.png" alt="" />
+        {/* <img src="/static/img/gameplay/gameplay@3.png" alt="" /> */}
       </div>
     </div>
   );

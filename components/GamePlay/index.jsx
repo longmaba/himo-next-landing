@@ -11,26 +11,38 @@ const settings = {
   dots: false,
   infinite: true,
   speed: 1500,
-  autoplay: true,
-  autoplaySpeed: 5000,
+  // autoplay: false,
+  // autoplaySpeed: 5000,
   slidesToShow: 1,
-  slidesToScroll: 1,
-  style: { margin: '16px 35px' },
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        autoplay: true,
-        slidesToShow: 1
-      }
-    }
-  ]
+  slidesToScroll: 1
+  // style: {
+  //   margin: '16px 4vw'
+  // }
 };
 
 export const GamePlay = () => {
   return (
     <div css={styles.container}>
-      <Slider {...settings}>
+      <div css={styles.titleContainer}>
+        <div css={styles.title}>GAMEPLAY</div>
+        <div css={styles.moreinfoButton}>MOREINFO</div>
+      </div>
+      <Slider
+        {...settings}
+        prevArrow={
+          <img
+            css={[styles.arrow, styles.arrowLeft]}
+            src="/static/img/gameplay/previous_arrow.png"
+            alt=""
+          />
+        }
+        nextArrow={
+          <img
+            css={[styles.arrow, styles.arrowRight]}
+            src="/static/img/gameplay/next_arrow.png"
+            alt=""
+          />
+        }>
         <SlideOne />
         <SlideTwo />
         <SlideThree />

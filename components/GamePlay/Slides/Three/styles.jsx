@@ -4,7 +4,7 @@ export const styles = {
   container: css`
     display: flex;
     align-items: center;
-    height: 100vh;
+    // height: 100vh;
     display: flex;
   `,
   leftContent: css`
