@@ -12,7 +12,7 @@ import JsonData from '../data/data.json';
 // import SmoothScroll from 'smooth-scroll';
 import { NFTItems } from '../components/nftItems';
 import { RoadMap } from '../components/roadmap';
-import { AirDropBanner15122021 } from '../components/Banner/AirDropBanner15122021';
+// import { AirDropBanner15122021 } from '../components/Banner/AirDropBanner15122021';
 
 // export const scroll = new SmoothScroll('a[href*="#"]', {
 //   speed: 1000,
@@ -28,9 +28,9 @@ const App = () => {
   return (
     <div>
       <Navigation />
-      {/* <Header data={landingPageData.Header} /> */}
+      <Header data={landingPageData.Header} />
 
-      <AirDropBanner15122021 />
+      {/* <AirDropBanner15122021 /> */}
       <div className="background-overlay">
         <About data={landingPageData.About} />
         <Features data={landingPageData.Features} />
