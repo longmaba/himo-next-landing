@@ -10,14 +10,15 @@ import { styles } from './styles';
 const settings = {
   dots: false,
   infinite: true,
-  speed: 1500,
+  speed: 500,
+  // adaptiveHeight: true,
   // autoplay: false,
   // autoplaySpeed: 5000,
   slidesToShow: 1,
-  slidesToScroll: 1
-  // style: {
-  //   margin: '16px 4vw'
-  // }
+  slidesToScroll: 1,
+  style: {
+    flex: 1
+  }
 };
 
 export const GamePlay = () => {

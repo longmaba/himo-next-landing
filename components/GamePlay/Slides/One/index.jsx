@@ -12,7 +12,8 @@ export const SlideOne = () => {
             time you setup your game plan.
           </div>
         </div>
-        <img src="static/img/gameplay/heroes.png" alt="" />
+        <div style={{ height: '100%', background: 'red' }}></div>
+        {/* <img src="static/img/gameplay/heroes.png" alt="" /> */}
       </div>
       <div css={styles.rightContent}>
         <img src="static/img/gameplay/gameplay@1.png" alt="" />

@@ -4,18 +4,44 @@ export const styles = {
   container: css`
     display: flex;
     align-items: center;
-    // height: 100vh;
+    flex-direction: column;
     display: flex;
+    position: relative;
+  `,
+  topContent: css`
+    color: #fff;
+    font-family: century-gothic;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+
+    @media screen and (max-width: 360px) {
+      font-size: 14px;
+      margin-bottom: 64px;
+  `,
+  bottomContent: css`
+    display: flex;
+    flex: 1;
+    width: 100%;
   `,
   leftContent: css`
-    height: 100%;
     flex: 2;
     display: flex;
     align-items: flex-end;
     justify-content: center;
 
     img {
-      height: 60%;
+      width: 30vw;
+    }
+
+    @media screen and (max-width: 360px) {
+      flex: 1;
+      align-items: flex-end;
+      justify-content: flex-start;
+
+      img {
+        width: 40vw;
+      }
     }
   `,
   middleContent: css`
@@ -24,7 +50,26 @@ export const styles = {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    height: 100%;
+  `,
+  rightContent: css`
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex: 2;
+
+    img {
+      width: 30vw;
+    }
+
+    @media screen and (max-width: 360px) {
+      flex: 1;
+      align-items: flex-end;
+      justify-content: flex-end;
+
+      img {
+        width: 40vw;
+      }
+    }
   `,
   description: css`
     color: #fff;
@@ -55,16 +100,5 @@ export const styles = {
   `,
   rightTitle: css`
     margin-right: -5vw;
-  `,
-  rightContent: css`
-    height: 100%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex: 2;
-
-    img {
-      height: 60%;
-    }
   `
 };

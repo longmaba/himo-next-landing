@@ -5,7 +5,7 @@ export const styles = {
     display: flex;
     align-items: center;
     display: flex;
-
+    height: 100%;
     @media screen and (max-width: 1024px) {
       flex-direction: column;
     }
@@ -16,6 +16,7 @@ export const styles = {
     flex-direction: column;
     justify-content: center;
     padding-left: 7vw;
+    height: 100%;
 
     img {
       width: 40vw;
@@ -28,36 +29,38 @@ export const styles = {
     @media screen and (max-width: 1024px) {
       align-items: center;
       padding-left: 0;
+      flex: 0;
     }
   `,
   rightContent: css`
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+
+    background-image: url(static/img/gameplay/gameplay@1.png);
+    background-position: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
 
     img {
-      width: 40vw;
-
+      width: 70%;
+      display: none;
       @media screen and (max-width: 1024px) {
-        margin-left: 7vw;
-      }
-
-      @media screen and (max-width: 500px) {
-        width: 80vw;
-        margin-left: 13vw;
-      }
-
-      @media screen and (min-width: 501px) and (max-width: 1024px) {
-        width: 60vw;
-        margin-left: 11vw;
+        display: none;
       }
     }
 
     @media screen and (max-width: 1024px) {
-      align-items: flex-start;
-      justify-content: flex-start;
+      background-image: url(static/img/gameplay/gameplay@1.png);
+      background-position: center;
+      background-position-y: bottom;
+      background-repeat: no-repeat;
+      background-size: contain;
     }
   `,
   textContent: css`

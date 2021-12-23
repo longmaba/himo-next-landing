@@ -3,9 +3,12 @@ import { css } from '@emotion/react';
 export const styles = {
   container: css`
     width: 100vw;
+    height: 100vh;
     background-image: url('/static/img/gameplay/game_play_background@1.png');
     background-size: cover;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
   `,
   titleContainer: css`
     display: flex;
